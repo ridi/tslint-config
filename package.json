@@ -1,0 +1,11 @@
+{
+  "name": "tslint-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/ridi/tslint-config.git",
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": "^5.9.1"
+  }
+}
