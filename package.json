@@ -7,5 +7,8 @@
   "license": "MIT",
   "peerDependencies": {
     "tslint": "^5.9.1"
+  },
+  "dependencies": {
+    "tslint-react": "^3.4.0"
   }
 }
