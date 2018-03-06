@@ -25,7 +25,10 @@ module.exports = {
     // 스트링 리터럴은 작은따옴표(Single Quotes), JSX의 속성에는 큰따옴표(Double Quotes)를 사용한다.
     'quotemark': [true, 'single', 'jsx-double'],
 
-    // JSX 내에서 여러 줄 JS 사용을 제한하는 것이 큰 이점이 없다고 판단하여 허용한다.
+    // JSX 내에서 여러 줄 JS 사용을 제한하는 것이 큰 이점이 없다.
     'jsx-no-multiline-js': false,
+    
+    // 알파벳 순으로 정렬하는 것 보다 비슷한 유형의 키를 쉽게 볼 수 있는 것이 더 유용하다.
+    'object-literal-sort-keys': false,
   },
 };
