@@ -27,8 +27,26 @@ module.exports = {
 
     // JSX 내에서 여러 줄 JS 사용을 제한하는 것이 큰 이점이 없다.
     'jsx-no-multiline-js': false,
-    
+
     // 알파벳 순으로 정렬하는 것 보다 비슷한 유형의 키를 쉽게 볼 수 있는 것이 더 유용하다.
     'object-literal-sort-keys': false,
+
+    'member-ordering': [true, {
+      'order': [
+        'constructor',
+        'private-static-field',
+        'protected-static-field',
+        'public-static-field',
+        'private-static-method',
+        'protected-static-method',
+        'public-static-method',
+        'private-instance-field',
+        'protected-instance-field',
+        'public-instance-field',
+        'private-instance-method',
+        'protected-instance-method',
+        'public-instance-method',
+      ],
+    }],
   },
 };
