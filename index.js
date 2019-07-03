@@ -17,7 +17,7 @@ module.exports = {
 
     // React Stateless Component 작성시 PascalCase를 사용하기 위해 허용한다.
     // 참고: https://github.com/palantir/tslint-react/issues/120
-    'variable-name': [true, 'allow-pascal-case'],
+    'variable-name': [true, 'allow-pascal-case', 'allow-snake-case'],
 
     // `@ridi/eslint-configs` 모듈과 일관성을 위해 세미콜론은 항상 사용한다.
     'semicolon': [true, 'always'],
